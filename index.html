@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tile + favIcon-->
+    <title>LeadGen - Product Showcase</title>
+    <link rel="shortcut icon" href="images/icons/Icon_favicon.ico" />
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="nav">
+        <div class="cantainer">
+            <div class="logo">
+                <img src="images/logo-white.png" alt="logo">
+            </div>
+            <div class="menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about-sec" onclick="navToggle()">about us</a></li>
+                    <li><a href="#feature-sec" onclick="navToggle()">features</a></li>
+                    <li><a href="#color-sec" onclick="navToggle()">colors</a></li>
+                    <li><a href="#design-sec" onclick="navToggle()">design</a></li>
+                    <li><a href="#review-sec" onclick="navToggle()">reviews</a></li>
+                    <li><a href="#product-sec" onclick="navToggle()">product</a></li>
+                    <li><a href="#product-sec" class="buy-now" onclick="navToggle()"><i class="fa-solid fa-credit-card"></i>buy now</a></li>
+                </ul>
+            </div>
+            <div class="menu-icon">
+                <a href="##" onclick="navToggle()"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero slider -->
+    <div class="hero-slider">
+        <div class="hero-slider">
+            <div class="slide" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) repeat scroll 0% 0%, transparent url('images/bg-images/agency-slider-1.jpg') repeat scroll 0% 0%;">
+                <div class="cantainer">
+                    <div class="text">
+                        <h1>new level <br> of sound <br> experience.</h1>
+                        <p>lorem ipsum is simple dummy text of printing and industry. lorem ipsum the industry's dummy text ever since</p>
+                        <a href="#" class="purchase-now">purchase now   <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#">read more   <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!-- <img src="images/bg-images/agency-slider-1.jpg" alt="slide-1"> -->
+            </div>
+            <div class="slide" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) repeat scroll 0% 0%, transparent url('images/bg-images/agency-slider-2.jpg') repeat scroll 0% 0%;">
+                <div class="cantainer">
+                    <div class="text">
+                        <h1>fresh, <br> beautiful, <br> innovative.</h1>
+                        <p>lorem ipsum is simple dummy text of printing and industry. lorem ipsum the industry's dummy text ever since</p>
+                        <a href="#" class="purchase-now">purchase now   <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#">read more   <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!-- <img src="images/bg-images/agency-slider-2.jpg" alt="slide-2"> -->
+            </div>
+            <div class="slide" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) repeat scroll 0% 0%, transparent url('images/bg-images/agency-slider-3.jpg') repeat scroll 0% 0%;">
+                <div class="cantainer">
+                    <div class="text">
+                        <h1>the product <br> of the feature.</h1>
+                        <p>lorem ipsum is simple dummy text of printing and industry. lorem ipsum the industry's dummy text ever since</p>
+                        <a href="#" class="purchase-now">purchase now   <i class="fa-solid fa-angle-right"></i></a>
+                        <a href="#">read more   <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <!-- <img src="images/bg-images/agency-slider-3.jpg" alt="slide-3"> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- after slider -->
+    <div class="sec-padding" id="about-sec">
+        <div class="rs_grid">
+            <div class="cantainer">
+                <div class="box-item">
+                    <h2>The best product on the market, just for you.</h2>
+                    <p class="pera_bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        when an unknown printer took a galley of type scrambled.</p>
+                    <a href="#">continue reading <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="box-item">
+                    <img src="images/design-screenshot6.png" alt="headPhone_design">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery image zoom -->
+    <div class="sec-padding" id="gallery-sec">
+        <div class="rs_galley">
+            <div class="gallery-carousel">
+                <div class="box-item">
+                    <img src="images/agency-work-01.jpg" alt="headPhone_design">
+                </div>
+                <div class="box-item">
+                    <img src="images/agency-work-02.jpg" alt="headPhone_design">
+                </div>
+                <div class="box-item">
+                    <img src="images/agency-work-03.jpg" alt="headPhone_design">
+                </div>
+                <div class="box-item">
+                    <img src="images/agency-work-04.jpg" alt="headPhone_design">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- headphone design -->
+    <div class="sec-padding">
+        <div class="rs_grid">
+            <div class="cantainer">
+                <div class="box-item">
+                    <img src="images/content-50.png" alt="headPhone_design">
+                </div>
+                <div class="box-item">
+                    <h2>Flexibility and design possibilities at their best.</h2>
+                    <p class="pera_bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        when an unknown printer took a galley of type scrambled.</p>
+                    <a href="#">continue reading   <i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- headphone features -->
+    <div class="sec-padding" id="feature-sec">
+        <div class="rs_grid rs_feature">
+            <div class="cantainer">
+                <div class="box-item">
+                    <ul>
+                        <li>
+                            <h3>The best sound.</h3>
+                            <p>Put it on repeat and stay unplugged all day thanks to up to 40 hours of battery life. You can keep track of the battery with the illuminated LED fuel gauge located on the headphone itself.</p>
+                        </li>
+                        <li>
+                            <h3>Unbelievable doom.</h3>
+                            <p>This headphone delivers premium playback with fine-tuned acoustics that maximize clarity, breadth, and balance. The comfort-cushion ear cups buffer outside noise for immersive sound.</p>
+                        </li>
+                        <li>
+                            <h3>Drop the bass.</h3>
+                            <p>The ultimate staple in your headphone closet, Plattan offers a rich, secluded sound experience, and convenient extras that make life easier. Features a fabric headband, tangle-free cable, built-in mic/remote.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-item">
+                    <img src="images/bg-images/hero-bg-38.jpg" alt="headPhone_design">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- headphone different colors -->
+    <div class="sec-padding" id="color-sec">
+        <div class="rs_grid headphone-color">
+            <div class="headphone-color">
+                <h1>The new vibrant colors</h1>
+                <p>The new fall/winter colors are a bit frozen over, with pale and bleached-out shades that match up with cooler days ahead. Snow Blue, Powder Pink, and Nougat Beige might be nippy to look at, but they’re as friendly to wear as your favorite
+                    sweater.
+                </p>
+            </div>
+            <div class="cantainer">
+                <div class="headphone-color-carousel">
+                    <div class="box-item">
+                        <img src="images/application-screenshot-img-01.png" alt="headPhone_design">
+                    </div>
+                    <div class="box-item">
+                        <img src="images/application-screenshot-img-02.png" alt="headPhone_design">
+                    </div>
+                    <div class="box-item">
+                        <img src="images/application-screenshot-img-03.png" alt="headPhone_design">
+                    </div>
+                    <div class="box-item">
+                        <img src="images/application-screenshot-img-04.png" alt="headPhone_design">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- headphone sound -->
+    <div class="sec-padding" id="design-sec">
+        <div class="rs_grid rs_sound">
+            <div class="cantainer">
+                <div class="box-item">
+                    <h2>Designed for Sound. Tuned for Emotion.</h2>
+                    <p class="pera_bold">The award-winning sound and design you’ve come to love from doom.</p>
+                    <p>This headphone delivers premium playback with fine-tuned acoustics that maximize clarity, breadth, and balance. The comfort-cushion ear cups buffer outside noise for immersive sound so you can experience music the way it was meant
+                        to be heard.
+                    </p>
+                </div>
+                <div class="box-item">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- award wining sound -->
+    <div class="sec-padding">
+        <div class="award-wining-sound">
+            <img src="images/banner-2.png" alt="banner 2">
+        </div>
+    </div>
+
+    <!-- before testimonal -->
+    <div class="sec-padding">
+        <div class="hero-banner-middle">
+            <img src="images/hero-text.png" alt="hero banner text image">
+            <img src="images/bg-images/hero-bg-40.jpg" alt="hero background">
+        </div>
+    </div>
+
+    <!-- testimonals -->
+    <div class="sec-padding" id="review-sec">
+        <div class="rs_grid rs_testimonals">
+            <div class="cantainer">
+                <div class="box-item">
+                    <div class="avtar-img">
+                        <img src="images/avtar-10.jpg" alt="avtar">
+                    </div>
+                    <div class="avtar-testimonal">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="avtar-name">- NATHAN FORD</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="avtar-img">
+                        <img src="images/avtar-11.jpg" alt="avtar">
+                    </div>
+                    <div class="avtar-testimonal">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="avtar-name">- PAUL SCRIVENS</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="avtar-img">
+                        <img src="images/avtar-12.jpg" alt="avtar">
+                    </div>
+                    <div class="avtar-testimonal">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="avtar-name">- AARRON WALTER</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="avtar-img">
+                        <img src="images/avtar-13.jpg" alt="avtar">
+                    </div>
+                    <div class="avtar-testimonal">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p class="avtar-name">- SHOKO MUGIKURA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- subscription -->
+    <div class="sec-padding">
+        <div class="rs_grid rs_subscription">
+            <div class="cantainer">
+                <div class="box-item">
+                    <h2>Don’t sleep on all the latest from doom.</h2>
+                </div>
+                <div class="box-item">
+                    <div class="input-field">
+                        <input type="text" placeholder="* Email Address">
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- product image -->
+    <div class="sec-padding" id="product-sec">
+        <div class="rs_grid product">
+            <div class="cantainer">
+                <div class="box-item">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img-01.png" alt="product">
+                        </div>
+                        <div class="product-detail">
+                            <p class="product-name">
+                                DOOM STUDIO WIRELESS
+                                <span class="product-spec">Designed for Sound</span>
+                            </p>
+                            <div class="price">
+                                <p class="price-sale">$399</p>
+                                <p class="price-main">$699</p>
+                            </div>
+                            <a href="#">buy now   <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img-02.png" alt="product">
+                        </div>
+                        <div class="product-detail">
+                            <p class="product-name">
+                                DOOM STUDIO WIRELESS
+                                <span class="product-spec">
+                                Designed for Sound
+                            </span>
+                            </p>
+                            <div class="price">
+                                <p class="price-sale">$399</p>
+                                <p class="price-main">$699</p>
+                            </div>
+                            <a href="#">buy now   <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img-03.png" alt="product">
+                        </div>
+                        <div class="product-detail">
+                            <p class="product-name">
+                                DOOM STUDIO WIRELESS
+                                <span class="product-spec">
+                                Designed for Sound
+                            </span>
+                            </p>
+                            <div class="price">
+                                <p class="price-sale">$399</p>
+                                <p class="price-main">$699</p>
+                            </div>
+                            <a href="#">buy now   <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img-04.png" alt="product">
+                        </div>
+                        <div class="product-detail">
+                            <p class="product-name">
+                                DOOM STUDIO WIRELESS
+                                <span class="product-spec">
+                                Designed for Sound
+                            </span>
+                            </p>
+                            <div class="price">
+                                <p class="price-sale">$399</p>
+                                <p class="price-main">$699</p>
+                            </div>
+                            <a href="#">buy now   <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="cantainer">
+            <div class="footer-top">
+                <div class="footer-box">
+                    <img src="images/logo.png" alt="footer logo">
+                    <p>301 The Greenhouse, Custard Factory, London, E2 8DY.</p>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="footer-box">
+                    <h4>Company</h4>
+                    <a href="#about-sec">About Us</a>
+                    <a href="#feature-sec">Features</a>
+                    <a href="#design-sec">Design</a>
+                </div>
+                <div class="footer-box">
+                    <h4>Useful Links</h4>
+                    <a href="#gallery-sec">Gallery</a>
+                    <a href="#color-sec">Color</a>
+                    <a href="#product-sec">Quick Order</a>
+                </div>
+                <div class="footer-box">
+                    <h4>Follow Us</h4>
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Google Plus</a>
+                </div>
+                <div class="footer-box">
+                    <h4>Newsletter Signup</h4>
+                    <p>Sign up for the latest news & offers.</p>
+                    <div class="input-field">
+                        <input type="text" placeholder="* Email Address">
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2022 LeadGen is proudly powered by <span>Rizwan Sarwar</span>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery Core 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/logic.js"></script>
+</body>
+
+</html>
